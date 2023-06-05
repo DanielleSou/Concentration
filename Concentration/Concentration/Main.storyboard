@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVo-l0-jdP">
-                                <rect key="frame" x="60" y="91" width="75" height="110"/>
+                                <rect key="frame" x="16" y="91" width="75" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
@@ -27,7 +27,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdR-90-3K1">
-                                <rect key="frame" x="179" y="91" width="75" height="110"/>
+                                <rect key="frame" x="110" y="91" width="75" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -39,16 +39,15 @@
                                     <action selector="touchCard:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="LB4-tZ-6q9"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flips:0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4W-qD-VdO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Flips:0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4W-qD-VdO">
                                 <rect key="frame" x="135" y="803" width="80" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" systemColor="systemOrangeColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PVP-4U-qil">
-                                <rect key="frame" x="60" y="235" width="75" height="110"/>
+                                <rect key="frame" x="302" y="91" width="75" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
@@ -58,7 +57,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t79-B6-35y">
-                                <rect key="frame" x="287" y="91" width="75" height="110"/>
+                                <rect key="frame" x="207" y="91" width="75" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
@@ -68,7 +67,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fxj-89-QM5">
-                                <rect key="frame" x="294" y="235" width="75" height="110"/>
+                                <rect key="frame" x="110" y="209" width="75" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
@@ -77,8 +76,28 @@
                                     <action selector="touchCard:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="e9A-eL-gHu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Y5-e9-Ire">
+                                <rect key="frame" x="207" y="209" width="75" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="9fK-K2-gXg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="owJ-ip-Npt">
+                                <rect key="frame" x="302" y="209" width="75" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="QZb-Tl-fhb"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3c-oW-VEP">
-                                <rect key="frame" x="179" y="235" width="75" height="110"/>
+                                <rect key="frame" x="16" y="209" width="75" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
@@ -87,12 +106,57 @@
                                     <action selector="touchCard:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="9Ru-aO-w86"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pih-SA-f1k">
+                                <rect key="frame" x="110" y="327" width="75" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="pBb-lK-6bT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kja-Hv-8AB">
+                                <rect key="frame" x="207" y="327" width="75" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="eke-4k-cWX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jy4-Wi-BHE">
+                                <rect key="frame" x="302" y="327" width="75" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="q46-sM-oyV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Pi-yh-2Yu">
+                                <rect key="frame" x="16" y="327" width="75" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="kdn-tC-Sb0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                         <accessibility key="accessibilityConfiguration">
                             <accessibilityTraits key="traits" button="YES"/>
                         </accessibility>
+                        <constraints>
+                            <constraint firstItem="U4W-qD-VdO" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="Gna-EI-H9l"/>
+                            <constraint firstItem="U4W-qD-VdO" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" id="UYK-lY-hgX"/>
+                            <constraint firstItem="U4W-qD-VdO" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="ohZ-SV-SaY"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="flipCoutLabel" destination="U4W-qD-VdO" id="A1i-84-rBj"/>
@@ -102,6 +166,12 @@
                         <outletCollection property="cardButtons" destination="ZdR-90-3K1" collectionClass="NSMutableArray" id="biw-eF-jgS"/>
                         <outletCollection property="cardButtons" destination="t79-B6-35y" collectionClass="NSMutableArray" id="9bj-Es-z5b"/>
                         <outletCollection property="cardButtons" destination="Fxj-89-QM5" collectionClass="NSMutableArray" id="OiB-vB-wiu"/>
+                        <outletCollection property="cardButtons" destination="5Y5-e9-Ire" collectionClass="NSMutableArray" id="kEa-i2-QwD"/>
+                        <outletCollection property="cardButtons" destination="owJ-ip-Npt" collectionClass="NSMutableArray" id="47F-fq-C9J"/>
+                        <outletCollection property="cardButtons" destination="7Pi-yh-2Yu" collectionClass="NSMutableArray" id="fiI-Um-ktl"/>
+                        <outletCollection property="cardButtons" destination="Pih-SA-f1k" collectionClass="NSMutableArray" id="tz3-gt-l6p"/>
+                        <outletCollection property="cardButtons" destination="kja-Hv-8AB" collectionClass="NSMutableArray" id="JdN-DW-iJN"/>
+                        <outletCollection property="cardButtons" destination="Jy4-Wi-BHE" collectionClass="NSMutableArray" id="bE6-Kh-P0s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

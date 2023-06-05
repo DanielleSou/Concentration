@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0D54FBF629EED2C80035B360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D54FBF529EED2C80035B360 /* Main.storyboard */; };
+		0DD3E4DA2A27A96300A35E4D /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD3E4D92A27A96300A35E4D /* Concentration.swift */; };
+		0DD3E4DC2A27AAD400A35E4D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD3E4DB2A27AAD400A35E4D /* Card.swift */; };
 		2F68562129E99C8800AA68A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F68562029E99C8800AA68A4 /* AppDelegate.swift */; };
 		2F68562329E99C8800AA68A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F68562229E99C8800AA68A4 /* SceneDelegate.swift */; };
 		2F68562529E99C8800AA68A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F68562429E99C8800AA68A4 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		0D54FBF529EED2C80035B360 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0DD3E4D92A27A96300A35E4D /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		0DD3E4DB2A27AAD400A35E4D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		2F68561D29E99C8800AA68A4 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F68562029E99C8800AA68A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F68562229E99C8800AA68A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		2F68561429E99C8700AA68A4 = {
 			isa = PBXGroup;
 			children = (
+				0DD3E4D92A27A96300A35E4D /* Concentration.swift */,
+				0DD3E4DB2A27AAD400A35E4D /* Card.swift */,
 				2F68561F29E99C8800AA68A4 /* Concentration */,
 				2F68563629E99C9300AA68A4 /* ConcentrationTests */,
 				2F68564029E99C9300AA68A4 /* ConcentrationUITests */,
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F68562529E99C8800AA68A4 /* ViewController.swift in Sources */,
+				0DD3E4DA2A27A96300A35E4D /* Concentration.swift in Sources */,
+				0DD3E4DC2A27AAD400A35E4D /* Card.swift in Sources */,
 				2F68562129E99C8800AA68A4 /* AppDelegate.swift in Sources */,
 				2F68562329E99C8800AA68A4 /* SceneDelegate.swift in Sources */,
 			);
